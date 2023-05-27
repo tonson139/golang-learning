@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	Surprise "soda-meow/surprise"
+	"soda-meow/surprise"
 )
 
 func main() {
@@ -12,5 +12,5 @@ func main() {
 }
 
 func sayMeowSurprise() string {
-	return Surprise.Surprise(sayMeow())
+	return surprise.Surprise(sayMeow())
 }
