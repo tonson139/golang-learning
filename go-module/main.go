@@ -26,3 +26,7 @@ func main() {
 func sayMeowSurprise() string {
 	return surprise.Surprise(sayMeow())
 }
+
+func SayThisIsBasic() string {
+	return "This is basic go"
+}

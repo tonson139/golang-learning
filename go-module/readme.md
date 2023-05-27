@@ -28,3 +28,13 @@ Meow !!!
                 ||     ||
 ➜  go-module git:(master) ✗ 
 ```
+
+### testing 
+```bash
+➜  go-module git:(go-tool) ✗ go test -v
+=== RUN   TestSayThisIsBasic
+    main_test.go:12: SUCCESS: expect `This is basic go`
+--- PASS: TestSayThisIsBasic (0.00s)
+PASS
+ok      soda-meow       0.463s
+```
