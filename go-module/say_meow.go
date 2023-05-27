@@ -1,5 +1,5 @@
 package main
 
 func sayMeow() string {
-	return "Meow!!"
+	return "Meow"
 }
